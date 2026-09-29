@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/paralelepipedo"
+            android:contentDescription="Imagem de física"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercícios de Física"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#243B55"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione um exercício"
+            android:textSize="17sp"
+            android:textColor="#607D8B"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnVelocidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01 - Velocidade"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnForca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="02 - Força"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnEnergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03 - Energia"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnFahrenheitCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="04 - Fahrenheit → Celsius"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnCelsiusFahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="05 - Celsius → Fahrenheit"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnParalelepipedo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="06 - Paralelepípedo"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnTorricelli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07 - Equação de Torricelli"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnDiluicao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08 - Diluição"/>
+
+    </LinearLayout>
+
+</ScrollView>

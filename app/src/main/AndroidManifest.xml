@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Exercícios de Física"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppExerciciosFisica">
+        <activity
+            android:name=".DiluicaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TorricelliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParalelepipedoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CelsiusFahrenheitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FahrenheitCelsiusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnergiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForcaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VelocidadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
